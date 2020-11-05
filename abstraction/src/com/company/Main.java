@@ -11,5 +11,9 @@ public class Main {
         parrot.breathe();
         parrot.eat();
         parrot.fly();
+
+        Penguin penguin = new Penguin("Emperor");
+        penguin.fly();
+
     }
 }
